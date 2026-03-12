@@ -67,25 +67,25 @@ npm run build
 
 ## Configuration
 
-| File | Purpose |
-|---|---|
+| File                | Purpose                                                |
+| ------------------- | ------------------------------------------------------ |
 | `webpack.common.js` | Entry point, output path, CSS loader rule, HTML plugin |
-| `webpack.dev.js` | Merges common + dev server, source maps |
-| `webpack.prod.js` | Merges common + production mode |
+| `webpack.dev.js`    | Merges common + dev server, source maps                |
+| `webpack.prod.js`   | Merges common + production mode                        |
 
 ## Dependencies
 
 All dependencies are `devDependencies` — there are no runtime dependencies.
 
-| Package | Purpose |
-|---|---|
-| `webpack` | Core bundler |
-| `webpack-cli` | CLI for running webpack |
-| `webpack-dev-server` | Development server |
-| `webpack-merge` | Merges config objects |
+| Package               | Purpose                               |
+| --------------------- | ------------------------------------- |
+| `webpack`             | Core bundler                          |
+| `webpack-cli`         | CLI for running webpack               |
+| `webpack-dev-server`  | Development server                    |
+| `webpack-merge`       | Merges config objects                 |
 | `html-webpack-plugin` | Generates HTML output from a template |
-| `css-loader` | Resolves `@import` and `url()` in CSS |
-| `style-loader` | Injects CSS into the DOM at runtime |
+| `css-loader`          | Resolves `@import` and `url()` in CSS |
+| `style-loader`        | Injects CSS into the DOM at runtime   |
 
 ## License
 
